@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(41, 44, 115);
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 1200px;
+    font-family: 'Poppins';
+    color: aliceblue;
+    padding-top: 0;
+}
+
+header{
+    background-color: rgb(41, 44, 115) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    width: 110%;
+    margin-left: -2px;
+}
+body, header{
+    background-image: linear-gradient(to right, rgba(41, 44, 115), rgba(41, 44, 115) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,1)), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(to bottom, rgb(8, 8, 8), rgba(211, 153, 6, 0.77));
+}
+
+li {
+    display: inline-block;
+    margin: 25px;
+}
+ul{
+    margin-right: 91px;
+}
+
+a:hover{
+    color:rgb(211, 153, 6) ;
+    transition: 300ms;
+    font-size: 15px;
+}
+
+a{
+    color: aliceblue;
+    transition: 600ms;
+    height: 0%;
+}
+#fale{
+    border: 3px solid rgb(211, 153, 6) ;
+    padding: 10px ;
+    border-radius: 25px;
+  }
+
+  #fale:hover{
+    color: aliceblue;
+    background-color: rgb(211, 153, 6);
+  }
+
+#banner1{
+    width: 95%;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    transition: 300ms;
+}
+#banner1:hover{
+    width: 97%;
+    transition: 300ms;
+}
+
+#divbanner2{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    gap: 100px; 
+    margin-top: 28px; 
+    
+}
+#divbanner2 img{
+    width: 520px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    transition: 300ms;
+    padding-top: -0px;
+
+}
+#divbanner2 img:hover{
+    width: 550px;
+    transition: 300ms;
+}
+
+
+#section2{
+    height: 70vh; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 60px;
+}
+
+div{
+    display: flex; 
+    flex-direction: row;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(211, 153, 6) ;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 100px;
+    margin-inline: 10px;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 500;
+    max-width: 600px;
+    margin: 10px;
+    text-align: justify;
+}
+
+#section3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-direction: row;
+}
+article h3, h4{
+    color: rgb(41, 44, 115) ;   
+}
+
+article{
+    background-color: white;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.imageproduct{
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 0px 3px 3px rgba(211, 153, 6);
+    transition: 200ms;
+}
+.imageproduct:hover{
+    width: 310px;
+    height: 410px;
+    transition: 200ms;
+}
+#section3 h4{
+    color: rgba(211, 153, 6);
+    font-weight: 700;
+    font-size: larger;
+}
+
+button{
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(41, 44, 115);
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins';
+    border: none;
+    border-radius: 20px;
+    transition: 500ms;
+}
+button:hover{
+    cursor: pointer;
+    font-size: 12px;
+    transition: 300ms;
+}
+
+#section4{
+    height: 20vh;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    gap: 40px;
+    display: grid;
+    padding: 50px;
+}
+#section4 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: solid 3px;
+    transition: 300ms;
+}
+
+#section4 img:hover{
+    width: 104%;
+    height: 104%;
+    transition: 300ms;
+    border: solid 5px rgb(211, 153, 6);
+}
+
+#section5{
+    margin-top: 1300px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+ form [type= "submit"]{
+    height: 50%;
+    width: 30%;
+    background-color: rgb(211, 153, 6) ;
+    color: white;
+    font-weight: bold;
+    transition: 500ms;
+    margin-left: 0px;
+}
+
+form [type= "submit"]:hover{
+    cursor: pointer;
+    height: 60%;
+    width: 32%;
+    transition: 200ms;
+    margin-left: -3px;
+}
+div h4{
+    color: white;
+    margin-top: 300px;
+    line-height: 20px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    margin-inline: 18
+}
+
+nav{
+    padding-top: 1px;
+}
+
+
+
+
+
+
+
+
+
+
